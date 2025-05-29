@@ -20,6 +20,7 @@ button {
     border: none;
 }
 
+
 ul{
     list-style-type: none;
 }
@@ -362,6 +363,20 @@ footer{
     box-sizing: border-box;
     font-size: 16px;
 }
+.img-1{
+    width: 80px;
+    margin-top: 6px;
+}
+
+.img-2{
+    width: 80px;
+    margin-top: 6px;
+}
+
+.img-3{
+    width: 80px;
+    margin-top: 6px;
+}
 
 .subscribe-button {
     width: 20%;
@@ -370,6 +385,9 @@ footer{
     cursor: pointer;   
 }
 
+button:hover{
+    background-color: rgb(147, 11, 244);
+}
 .logo-container{
     width: 302px; 
     height: 90px;
@@ -414,4 +432,8 @@ footer{
     flex-direction: column;
     gap: 10px;
     padding-top: 15px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
